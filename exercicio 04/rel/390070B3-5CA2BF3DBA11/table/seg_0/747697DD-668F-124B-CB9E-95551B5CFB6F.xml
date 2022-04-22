@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="747697DD-668F-124B-CB9E-95551B5CFB6F" name="Agência_bancária">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>6AC2EC60-99A4-C391-D3C1-3231BB918444</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Núm_agência" id="F28EFCCA-0B89-6E1B-AAED-07E70471C337">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>BF88D10F-0C01-574C-5444-9BCF5E989900</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="504B5B20-04BA-C5A7-2D64-CEFA9BBD6EB1">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>325A4904-A9AC-0EF1-6D8E-A80B271FE643</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="702FA2E5-548A-C0AF-952D-48465386164D">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>BD713D38-AE38-F1F5-CFEC-EB9A76265957</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

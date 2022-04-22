@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96BC3498-9D74-A693-447D-B7A9DF40C1B6" name="conta">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:14:19 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Número" id="9A91EEE5-B01D-F17C-464B-762569FF8B27">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:23:18 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="AAF4E655-8E39-65A5-7DE7-1E053B116319">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:23:18 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="473CA52F-BDAD-1595-CD4D-A35234015E92">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:23:19 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

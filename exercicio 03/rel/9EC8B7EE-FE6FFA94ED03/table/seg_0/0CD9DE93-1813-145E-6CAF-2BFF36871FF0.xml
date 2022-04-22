@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CD9DE93-1813-145E-6CAF-2BFF36871FF0" name="Estudante">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:03:31 UTC</createdTime>
+<generatorID>210DA1E7-900B-F7D1-8C94-C8F358560629</generatorID>
+<ownerDesignName>exercicio 03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="6C0EEC27-7255-7CCD-E16F-D9E44403C894">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:03:31 UTC</createdTime>
+<generatorID>4F7A6E3B-30CE-E109-DA35-DD6756D2BA7D</generatorID>
+<ownerDesignName>exercicio 03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="F516C452-EFBA-6CE6-0F27-2E5147E2398D">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:03:31 UTC</createdTime>
+<generatorID>D9045ECD-5522-5460-CF38-211DB33D8C5E</generatorID>
+<ownerDesignName>exercicio 03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="B4BE630B-72E4-290B-3575-7CDF29EF992C">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:03:31 UTC</createdTime>
+<generatorID>1D949182-3353-394F-48D6-3FDBB6352CBE</generatorID>
+<ownerDesignName>exercicio 03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

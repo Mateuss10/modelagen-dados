@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBB2FC0F-F622-40CB-40AF-B8D87780D0B4" name="Cliente">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:15:01 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="0405407E-606F-9179-9E77-FC0CB37EDB33">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:21:17 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="8C90DF41-45C7-7403-90DF-738C94B0D2F7">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:21:17 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="B042A087-998F-1921-98EC-9AF50812AF7F">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:21:18 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="995B677D-BC3A-6CDA-ABEF-03D15BC7DE22">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:21:18 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

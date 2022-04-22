@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AC2EC60-99A4-C391-D3C1-3231BB918444" name="Agência bancária">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:13:29 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Núm.agência" id="BF88D10F-0C01-574C-5444-9BCF5E989900">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:19:41 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="325A4904-A9AC-0EF1-6D8E-A80B271FE643">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:19:41 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="BD713D38-AE38-F1F5-CFEC-EB9A76265957">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:19:42 UTC</createdTime>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<engineerTo>
+<item key="390070B3-3402-D66C-87B7-5CA2BF3DBA11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

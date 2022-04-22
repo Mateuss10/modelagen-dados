@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEA00C09-518D-80FC-236D-397741E2E9FF" name="Dependentes">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:53:47 UTC</createdTime>
+<ownerDesignName>exercicio 02</ownerDesignName>
+<engineerTo>
+<item key="9CA60A55-DFA8-8AE5-6B21-75746A297950" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome dependentes" id="0D5EAE9E-4C45-355A-1D35-CE34E4139E78">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:55:26 UTC</createdTime>
+<ownerDesignName>exercicio 02</ownerDesignName>
+<engineerTo>
+<item key="9CA60A55-DFA8-8AE5-6B21-75746A297950" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="53362AFD-063A-8A0D-6C1B-E7EB4C091F85">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:55:26 UTC</createdTime>
+<ownerDesignName>exercicio 02</ownerDesignName>
+<engineerTo>
+<item key="9CA60A55-DFA8-8AE5-6B21-75746A297950" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data nasc." id="6387083E-A488-4707-EB9B-C0D062B7F8DD">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:55:27 UTC</createdTime>
+<ownerDesignName>exercicio 02</ownerDesignName>
+<engineerTo>
+<item key="9CA60A55-DFA8-8AE5-6B21-75746A297950" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesco" id="1341E801-EE5F-44E0-0F3F-B39CA7C23825">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:55:28 UTC</createdTime>
+<ownerDesignName>exercicio 02</ownerDesignName>
+<engineerTo>
+<item key="9CA60A55-DFA8-8AE5-6B21-75746A297950" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

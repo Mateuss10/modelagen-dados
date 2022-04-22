@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D93F1591-2E4D-5144-C44D-254CBFA41B5A" name="conta">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>96BC3498-9D74-A693-447D-B7A9DF40C1B6</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Número" id="317883BE-7175-1649-4C57-E45C32E5E68C">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>9A91EEE5-B01D-F17C-464B-762569FF8B27</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="0055777B-2593-F32B-4B3C-9528022D32D2">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>AAF4E655-8E39-65A5-7DE7-1E053B116319</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="D393FDF4-C98E-0104-6984-5E48476D2739">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 14:24:30 UTC</createdTime>
+<generatorID>473CA52F-BDAD-1595-CD4D-A35234015E92</generatorID>
+<ownerDesignName>exercicio 04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
