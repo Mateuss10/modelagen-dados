@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="079ABC6B-7D34-C855-FE0C-948454D8B17B" name="Tipo_de_avião">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:33:03 UTC</createdTime>
+<generatorID>44A58AF4-70B5-ACCF-601E-77E579DF5C4E</generatorID>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome_tipo" id="503FE127-C122-8603-87E8-27D582005DB9">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:33:03 UTC</createdTime>
+<generatorID>3FA62B02-A0A7-5635-D7CF-97F11DE67D57</generatorID>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa" id="A4AA5F32-E467-89EC-8CA7-87A539486FA6">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:33:03 UTC</createdTime>
+<generatorID>BAD61481-FD42-F7BC-F444-BC34AB454DB1</generatorID>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Configurações" id="9EC193D8-D721-EEA2-BBC9-B7049795DE9A">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:33:03 UTC</createdTime>
+<generatorID>AA462A46-82BC-7B8A-E6BE-529C93775F7F</generatorID>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

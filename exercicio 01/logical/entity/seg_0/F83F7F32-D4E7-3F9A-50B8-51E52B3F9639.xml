@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F83F7F32-D4E7-3F9A-50B8-51E52B3F9639" name="Aeroporto">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:26:11 UTC</createdTime>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<engineerTo>
+<item key="DDCF3CC7-58A5-A348-AD43-6DF89475895D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cód.aero" id="9E96C366-D10B-D1F2-9C92-9ECA14034C6B">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:27:33 UTC</createdTime>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<engineerTo>
+<item key="DDCF3CC7-58A5-A348-AD43-6DF89475895D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="C25B15A0-7645-E33B-F310-3847308434B2">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:27:34 UTC</createdTime>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<engineerTo>
+<item key="DDCF3CC7-58A5-A348-AD43-6DF89475895D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidade" id="050FF80F-7914-F8CB-BE7A-E3D2C0AAF347">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:27:35 UTC</createdTime>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<engineerTo>
+<item key="DDCF3CC7-58A5-A348-AD43-6DF89475895D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="E5B84ED5-9149-238A-AD7B-972A3B8BA046">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 13:27:35 UTC</createdTime>
+<ownerDesignName>exercicio 01</ownerDesignName>
+<engineerTo>
+<item key="DDCF3CC7-58A5-A348-AD43-6DF89475895D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
