@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7603D97-25D4-D739-DF90-401749BDCCBB" name="Curso">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:31:30 UTC</createdTime>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<engineerTo>
+<item key="2D9DCDD8-D8E5-8B04-AECF-2E16E7D11E47" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Descrição" id="8CEAA2F3-86EF-B801-145C-B66E28CF523E">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:35:28 UTC</createdTime>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<engineerTo>
+<item key="2D9DCDD8-D8E5-8B04-AECF-2E16E7D11E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Portaria" id="31EF9CD1-7770-FA22-9A29-642B391C9E1D">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:35:28 UTC</createdTime>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<engineerTo>
+<item key="2D9DCDD8-D8E5-8B04-AECF-2E16E7D11E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
