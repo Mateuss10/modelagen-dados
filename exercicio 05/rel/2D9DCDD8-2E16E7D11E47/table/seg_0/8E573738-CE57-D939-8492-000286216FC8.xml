@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E573738-CE57-D939-8492-000286216FC8" name="Curso">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:39:00 UTC</createdTime>
+<generatorID>D7603D97-25D4-D739-DF90-401749BDCCBB</generatorID>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Descrição" id="5A6C70E0-88B9-05A2-7F37-21261F5D040F">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:39:00 UTC</createdTime>
+<generatorID>8CEAA2F3-86EF-B801-145C-B66E28CF523E</generatorID>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Portaria" id="B7669089-C3EA-7DEB-DCBA-02B81F12ED5F">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:39:00 UTC</createdTime>
+<generatorID>31EF9CD1-7770-FA22-9A29-642B391C9E1D</generatorID>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_ID" id="3F6CB55B-E8DB-BCE1-E05C-2081B2FEB526">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:39:00 UTC</createdTime>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Matricula_Matricula_ID" id="7D863196-1BA4-FBB2-E331-F21C1C69613A">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:39:00 UTC</createdTime>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15FA2C21-C077-3117-BB34-32A5854063F5" referredColumn="460E18FB-AF7E-2C84-F1B6-90638BCBCE3E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="171C4C7A-42AA-8DAE-8676-24AF54A97B7E" name="Curso_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:39:00 UTC</createdTime>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3F6CB55B-E8DB-BCE1-E05C-2081B2FEB526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09652E5D-9577-4064-14CE-33C988FEFBB7" name="Curso_Matricula_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-22 16:39:00 UTC</createdTime>
+<generatorID>DEDFA7E5-CEAF-0B68-2EAE-970A4274F52D</generatorID>
+<ownerDesignName>exercicio 05</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D863196-1BA4-FBB2-E331-F21C1C69613A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
