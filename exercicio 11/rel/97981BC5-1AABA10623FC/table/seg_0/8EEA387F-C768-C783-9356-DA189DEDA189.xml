@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EEA387F-C768-C783-9356-DA189DEDA189" name="livro">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>667DF3A3-7766-9AEE-732D-20E3B3AB5157</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ISBN" id="7A487443-4852-95B0-2A4A-D71469CFEE31">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>F7E0D535-B021-16A1-1BEB-D12CF688E6C0</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="BD3E03DF-1682-74C7-66FE-D865FF7E6078">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>7EC90DE6-9358-1822-BBD9-56B6859666C0</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_editor" id="9E0ADB53-EB9A-E125-9799-69836B65AF80">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>A28BC847-63A0-B3A1-B62C-ED009BDC0BAD</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autores" id="D1984333-7655-5334-9AEB-75613070EF04">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>DE95E65A-437C-77BA-4883-1120AFB7E299</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="livro_ID" id="34A19DDC-0FD5-6218-5AE7-A371EDEF49CB">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="autores_autores_ID" id="A9F215F0-067F-733E-4D32-128D12B114BE">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A0FE68B-0E20-20E3-84E8-422D941FB657" referredColumn="C1F73C50-55AE-4B46-8B64-FC9C73CB8516"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="806A07DE-419C-F2B7-0739-57C37F7742A3" name="livro_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="34A19DDC-0FD5-6218-5AE7-A371EDEF49CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="496CEB41-31CF-06C8-F90D-2C854B202E0A" name="livro_autores_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>20AE3B05-9136-E5B1-62DC-1FCFB40D7A7D</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9F215F0-067F-733E-4D32-128D12B114BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

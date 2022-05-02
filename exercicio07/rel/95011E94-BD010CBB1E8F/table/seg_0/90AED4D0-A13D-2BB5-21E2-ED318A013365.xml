@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90AED4D0-A13D-2BB5-21E2-ED318A013365" name="Proprietario">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>946BF7C9-9E79-C757-38CB-216C0AF149F0</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="imoveis" id="143278D6-346A-1A18-CDE6-74DB52A91641">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>2E0C9675-05C0-0562-59D1-EAE881637052</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proprietario_ID" id="269E7B17-F1C2-8338-A94C-EB04D8EF67EF">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E84CF2F6-6075-0EB1-2393-F5CD7EE3ED13" name="Proprietario_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="269E7B17-F1C2-8338-A94C-EB04D8EF67EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

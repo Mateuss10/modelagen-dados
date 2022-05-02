@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BABA9B28-FA44-F218-0589-0E5C55AB1DE9" name="categoria">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:25:32 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<engineerTo>
+<item key="97981BC5-0059-F79C-078D-1AABA10623FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod.categoria" id="E7A79EB4-0347-6725-9E58-EE6B5867AA5E">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:25:32 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<importedID>73EA80C0-9E23-90BC-DFA0-621E71AE6CA0</importedID>
+<engineerTo>
+<item key="97981BC5-0059-F79C-078D-1AABA10623FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descrição" id="666273E9-915F-BE75-C8AB-FF38C2E18FDC">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:25:32 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<importedID>676FCA09-E9DA-B42B-773B-94E383CB3E1A</importedID>
+<engineerTo>
+<item key="97981BC5-0059-F79C-078D-1AABA10623FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

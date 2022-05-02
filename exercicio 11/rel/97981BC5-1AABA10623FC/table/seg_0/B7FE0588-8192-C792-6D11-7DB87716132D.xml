@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7FE0588-8192-C792-6D11-7DB87716132D" name="categoria">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>BABA9B28-FA44-F218-0589-0E5C55AB1DE9</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_categoria" id="9DB1AFC7-8FA3-5486-1059-AD202F5D372C">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>E7A79EB4-0347-6725-9E58-EE6B5867AA5E</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descrição" id="F03FC7A7-6C97-DFED-521B-3F2F011A676E">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>666273E9-915F-BE75-C8AB-FF38C2E18FDC</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="livro_livro_ID" id="31785003-618A-5953-70AF-74BA313EDCF2">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95B9C029-34AA-CCD4-0676-E0A19E84CD24" referredColumn="34A19DDC-0FD5-6218-5AE7-A371EDEF49CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E76EE7C-FED7-9557-6160-0522752059C5" name="categoria_livro_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>B9C35EDB-C4C8-52B2-0F4D-EE2496644FD5</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31785003-618A-5953-70AF-74BA313EDCF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

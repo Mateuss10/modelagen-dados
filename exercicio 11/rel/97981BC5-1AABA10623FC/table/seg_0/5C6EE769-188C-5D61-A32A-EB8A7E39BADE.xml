@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C6EE769-188C-5D61-A32A-EB8A7E39BADE" name="autores">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>A222AA6D-9E9A-C31B-F684-598D0027F65D</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="A34EF848-BBE2-AFC9-E6C8-1A486129A34A">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>4FAA88B4-631E-592F-70B1-FD5295A5BA6A</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidade" id="EEBE1D6A-702C-5E05-6B28-24424767ACD1">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<generatorID>DFB3E6F5-BA90-65F5-4329-E7C29EF6CD77</generatorID>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autores_ID" id="C1F73C50-55AE-4B46-8B64-FC9C73CB8516">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C4AF44B-F8F2-44E9-2193-CBCCDE4E1827" name="autores_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:27:11 UTC</createdTime>
+<ownerDesignName>exercicio 11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C1F73C50-55AE-4B46-8B64-FC9C73CB8516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

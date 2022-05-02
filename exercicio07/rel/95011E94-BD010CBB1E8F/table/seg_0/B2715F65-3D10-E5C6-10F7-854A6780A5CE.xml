@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2715F65-3D10-E5C6-10F7-854A6780A5CE" name="inquilinos">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>DCF56B30-1A9F-13FF-1F24-8D77F3DF6F15</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aluguel_do_imovel" id="78FDBBFD-8E75-9ABE-8532-DC8C7EFC9EB1">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>99BA8657-7EF2-18BE-8A6E-6DDE9015AB97</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inquilinos_ID" id="B3A95723-FCCD-5275-0CC9-C881120FB6D1">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="679A6A0A-532C-1AF1-E33C-09A406338428" name="inquilinos_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B3A95723-FCCD-5275-0CC9-C881120FB6D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

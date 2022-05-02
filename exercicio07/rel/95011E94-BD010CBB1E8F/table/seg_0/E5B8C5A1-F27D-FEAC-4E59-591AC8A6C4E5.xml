@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5B8C5A1-F27D-FEAC-4E59-591AC8A6C4E5" name="Relation_2">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="correto_correto_ID" id="831E0655-BE49-46F5-5378-F58CF223CD71">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8678F9BE-F054-E1E6-26AB-FE7576F148BF" referredColumn="BD84DCEF-710A-88E5-B739-175EE02B3A4F"/>
+</associations>
+</Column>
+<Column name="inquilinos_inquilinos_ID" id="6A5C85F8-9FCA-5FF9-34F3-194BD87864AE">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48DE8FE8-5617-C267-A720-FEC02D781656" referredColumn="B3A95723-FCCD-5275-0CC9-C881120FB6D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A8D3107-2D30-0E25-41C4-DB580AAD864D" name="Relation_2_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="831E0655-BE49-46F5-5378-F58CF223CD71"/>
+<colUsage columnID="6A5C85F8-9FCA-5FF9-34F3-194BD87864AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE1FD363-776C-2F73-068E-6B4FF2C9F61B" name="Relation_2_correto_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>ED175DE5-B437-B293-FDDE-F3B512807EE0</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="831E0655-BE49-46F5-5378-F58CF223CD71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A84EE877-DA23-174C-A63B-83285AE3D3C6" name="Relation_2_inquilinos_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>ED175DE5-B437-B293-FDDE-F3B512807EE0</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5C85F8-9FCA-5FF9-34F3-194BD87864AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

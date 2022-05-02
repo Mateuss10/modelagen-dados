@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="467384EC-402A-1ECF-0749-C4E7B069820A" name="correto">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>FFBE1719-4670-8957-3002-657DF934EBF9</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="correto_ID" id="BD84DCEF-710A-88E5-B739-175EE02B3A4F">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Proprietario_Proprietario_ID" id="8452168C-00B3-04F7-0B87-B5BC40C69554">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE34A346-F4F2-A2D7-1F3A-6B1E3050274A" referredColumn="269E7B17-F1C2-8338-A94C-EB04D8EF67EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38C67B4C-1CA2-08DA-5302-3B8817C2871E" name="correto_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<ownerDesignName>exercicio07</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BD84DCEF-710A-88E5-B739-175EE02B3A4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C72BF69A-E682-638D-37B5-2A69FD7E461D" name="correto_Proprietario_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-04-30 22:48:05 UTC</createdTime>
+<generatorID>E467D4D7-9B5D-2A46-EC20-626B50F2ED53</generatorID>
+<ownerDesignName>exercicio07</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8452168C-00B3-04F7-0B87-B5BC40C69554"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
