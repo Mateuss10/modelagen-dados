@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F470157C-CAD9-80D4-BC6E-527A15281E1B" name="cliente">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>623C523F-0F34-2AE0-83B0-A02F561EA715</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_cliente" id="BCF03A16-132D-1607-7CE2-D6D82D141220">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>A26ABB14-C5E0-64D7-A7F0-5C337871183A</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="2F1BCFDA-FC90-0F90-304A-98D226DA4045">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>E426CA63-9EE3-65D7-E8BF-ABBDC50DA50D</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="108AD981-C47A-2293-585D-16D74B65E9E2">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>280A36CE-5B01-E760-8D36-1667924EB87E</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="EFDB5572-70F8-B2E9-CB56-09C1BEAF6197">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>3C6EA23D-F98A-42DD-8CA5-1ACC8066F370</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="7E687C55-C704-B746-BF52-CD245E913FA2">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>054F7E27-9A1C-F8E5-50B3-AE4A3619E148</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="limite_de_credito" id="CFB6985C-0966-A159-50AD-5952E67E1156">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>60F2701C-CE0B-A077-0176-7A1A62FAD9EA</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pedidos_feitos" id="6E2D911E-7FF5-E317-A434-8401D1A1D2C2">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>EB8EBBA6-9F2F-46B8-3427-7B7CE6B9BB43</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_ID" id="1EFAB2D4-2546-7426-1E7F-A00C30A3A879">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71035DB0-7A4F-55B2-E453-28706D5E12B5" name="cliente_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1EFAB2D4-2546-7426-1E7F-A00C30A3A879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

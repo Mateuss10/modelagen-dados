@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D547111-0AC3-8C42-4BB7-E857BFCDF837" name="turma">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 13:15:36 UTC</createdTime>
+<generatorID>9E018445-0A49-1CBB-B642-430E72AB5512</generatorID>
+<ownerDesignName>exercico 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="professores" id="5D284D8D-8AF5-9F88-C5E4-6B76F2D37C5C">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 13:15:36 UTC</createdTime>
+<generatorID>FA1FDA07-62E8-3B12-9C51-7B228C66C34C</generatorID>
+<ownerDesignName>exercico 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aluno" id="36D9215C-AF78-3D9F-5B90-265B05732FF1">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 13:15:36 UTC</createdTime>
+<generatorID>4916DD00-5938-046D-4C78-2A9C3BC1D920</generatorID>
+<ownerDesignName>exercico 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turma_ID" id="36420916-BCE8-0530-036D-B9A9EEFC7B55">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 13:15:36 UTC</createdTime>
+<ownerDesignName>exercico 10</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="625F85AF-D2BD-6554-A083-4018D89E5E8E" name="turma_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 13:15:36 UTC</createdTime>
+<ownerDesignName>exercico 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="36420916-BCE8-0530-036D-B9A9EEFC7B55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

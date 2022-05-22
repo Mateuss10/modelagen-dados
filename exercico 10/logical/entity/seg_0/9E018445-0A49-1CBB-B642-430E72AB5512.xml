@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E018445-0A49-1CBB-B642-430E72AB5512" name="turma ">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:07:39 UTC</createdTime>
+<ownerDesignName>exercico 10</ownerDesignName>
+<engineerTo>
+<item key="EA77882D-7ED5-9C54-A8E2-4A9B463460E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="professores" id="FA1FDA07-62E8-3B12-9C51-7B228C66C34C">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:09:14 UTC</createdTime>
+<ownerDesignName>exercico 10</ownerDesignName>
+<engineerTo>
+<item key="EA77882D-7ED5-9C54-A8E2-4A9B463460E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aluno" id="4916DD00-5938-046D-4C78-2A9C3BC1D920">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 13:06:45 UTC</createdTime>
+<ownerDesignName>exercico 10</ownerDesignName>
+<engineerTo>
+<item key="EA77882D-7ED5-9C54-A8E2-4A9B463460E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

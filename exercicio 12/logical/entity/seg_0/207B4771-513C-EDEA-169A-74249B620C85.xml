@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="207B4771-513C-EDEA-169A-74249B620C85" name="produtor">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:19 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod.produto" id="BEF97F4E-FC63-8295-9651-7C38A6801C4E">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:19 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>C342E4CB-4592-23D1-E6BD-CC4274482CD1</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome do produto" id="C203AA1B-89DB-9F61-2467-34CAF9262FFD">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:19 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>3E3AC079-E760-8178-4593-8D1538C982A1</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preço" id="4F62BE57-50BD-A9C7-A2F0-8F58DEFB5E9E">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:19 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>9780D05C-638D-7D44-9161-1E0DE41AD17C</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

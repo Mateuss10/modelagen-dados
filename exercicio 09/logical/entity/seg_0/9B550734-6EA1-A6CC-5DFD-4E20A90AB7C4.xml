@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B550734-6EA1-A6CC-5DFD-4E20A90AB7C4" name="compra">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:00:49 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<engineerTo>
+<item key="327E0C25-D915-B0AE-7456-C0B23CFC4BB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id nome" id="666C9ECC-C522-5B5A-A9F9-7A202B64B014">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:00:58 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<engineerTo>
+<item key="327E0C25-D915-B0AE-7456-C0B23CFC4BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data de compra" id="4825B184-C202-BFB2-62E7-1E50CF738DC4">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:01:25 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<engineerTo>
+<item key="327E0C25-D915-B0AE-7456-C0B23CFC4BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor total" id="8F755636-4FAA-8D88-DC2A-46AD197EC5CC">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:01:44 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<engineerTo>
+<item key="327E0C25-D915-B0AE-7456-C0B23CFC4BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produtos comprados" id="D693A95C-DA5F-3E28-C7C7-0062343C9FA8">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:02:05 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<engineerTo>
+<item key="327E0C25-D915-B0AE-7456-C0B23CFC4BB4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

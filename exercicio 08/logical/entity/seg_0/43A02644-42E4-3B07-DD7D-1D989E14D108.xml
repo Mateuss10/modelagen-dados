@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43A02644-42E4-3B07-DD7D-1D989E14D108" name="nota">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:19:17 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<engineerTo>
+<item key="8F81C0E2-4523-85CB-B090-F274CB2166B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trabalho" id="382375F2-9650-82E0-AFD0-4694A50CB701">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:29:58 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<engineerTo>
+<item key="8F81C0E2-4523-85CB-B090-F274CB2166B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provas" id="7DE4C26B-DA23-0CB8-DF74-2BAD35DF1602">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:30:20 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<engineerTo>
+<item key="8F81C0E2-4523-85CB-B090-F274CB2166B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

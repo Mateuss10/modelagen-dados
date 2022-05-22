@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25C32FE7-8DEA-9E90-C111-3D3DAC27F99C" name="produtor">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>207B4771-513C-EDEA-169A-74249B620C85</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_produto" id="516236B8-AAB9-526B-27BE-739C8592ADCA">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>BEF97F4E-FC63-8295-9651-7C38A6801C4E</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_do_produto" id="F8B46F97-9913-A9BF-9F38-11ACC523E2A4">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>C203AA1B-89DB-9F61-2467-34CAF9262FFD</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preço" id="B8C2DE14-E534-27FC-C4CA-FC15DB5D0AD8">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>4F62BE57-50BD-A9C7-A2F0-8F58DEFB5E9E</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produtor_ID" id="60A2370F-FC61-E09E-5550-BB8C8F4552E4">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="cliente_cliente_ID" id="3E43A018-106B-9A1D-C2B2-174BCD674877">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9D053FF-1AA5-1F00-A726-E8EBC13E4EEA" referredColumn="1EFAB2D4-2546-7426-1E7F-A00C30A3A879"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0E7F86D-9DBB-FD42-9AF1-9362E32734E7" name="produtor_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="60A2370F-FC61-E09E-5550-BB8C8F4552E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDACB86E-4FF1-97A4-7958-4773877865E7" name="produtor_cliente_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:44:00 UTC</createdTime>
+<generatorID>D0EB2942-6B8C-1BC7-A6FF-D74468827259</generatorID>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E43A018-106B-9A1D-C2B2-174BCD674877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

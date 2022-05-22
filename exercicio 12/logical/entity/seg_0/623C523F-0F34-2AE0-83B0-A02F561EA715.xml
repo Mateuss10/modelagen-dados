@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="623C523F-0F34-2AE0-83B0-A02F561EA715" name="cliente">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod.cliente" id="A26ABB14-C5E0-64D7-A7F0-5C337871183A">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>7F3C5C2C-06CB-2D04-9D16-C4976AD4AA3F</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E426CA63-9EE3-65D7-E8BF-ABBDC50DA50D">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>0581EE21-C955-0BD6-9768-135D0ADB320B</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="280A36CE-5B01-E760-8D36-1667924EB87E">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>EB88F993-164D-C070-F7E3-72AE5CBE6D82</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="3C6EA23D-F98A-42DD-8CA5-1ACC8066F370">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>F9AA74F7-8A36-7590-67A5-A320939C3C68</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="054F7E27-9A1C-F8E5-50B3-AE4A3619E148">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>F3CC2848-C9F7-9E68-30F7-21EC225318DA</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="limite de credito" id="60F2701C-CE0B-A077-0176-7A1A62FAD9EA">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>0D9D38C2-ED2B-71E3-3F67-3D94BAD849ED</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedidos feitos" id="EB8EBBA6-9F2F-46B8-3427-7B7CE6B9BB43">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 14:43:09 UTC</createdTime>
+<ownerDesignName>exercicio 12</ownerDesignName>
+<importedID>20DDEA45-F8DD-666C-B35C-5C9B4667DFF5</importedID>
+<engineerTo>
+<item key="0177BCF2-31F1-D378-5361-77954BC7A17F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

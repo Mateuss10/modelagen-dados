@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="CEC75BFB-4233-3B08-4202-78BDD7D1652A">
+<createdBy>silva</createdBy>
+<modifiedBy>silva</modifiedBy>
+<createdTime>2022-05-02 11:19:17 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="43A02644-42E4-3B07-DD7D-1D989E14D108" otype="Entity" vid="7B5DBE88-669F-C5D9-DE04-26C8FE7EEE65">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="213" y="58" width="116" height="66"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="446EAE92-1A50-14D8-ABC0-52EBC83AE4F3" otype="Entity" vid="BD8B4F2F-6E73-0B8C-23DA-4F68E278F715">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="382" y="58" width="91" height="60"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C1A81F27-6137-28FE-DAE1-BD18EBAD8F1B" otype="Entity" vid="666A1067-EA0D-7787-3E20-5B9C4D21B1E5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="46" y="64" width="103" height="58"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DC4DDCEB-88E1-4FCB-40E4-F05195D06161" otype="Relation" vid_source="7B5DBE88-669F-C5D9-DE04-26C8FE7EEE65" vid_target="666A1067-EA0D-7787-3E20-5B9C4D21B1E5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="213" y="93"/>
+<point x="149" y="93"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FEC3D463-2988-3E5C-DBEF-61488C3CBF27" otype="Relation" vid_source="BD8B4F2F-6E73-0B8C-23DA-4F68E278F715" vid_target="7B5DBE88-669F-C5D9-DE04-26C8FE7EEE65">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="382" y="88"/>
+<point x="329" y="88"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

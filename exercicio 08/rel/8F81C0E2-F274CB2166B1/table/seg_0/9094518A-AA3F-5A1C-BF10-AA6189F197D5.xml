@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9094518A-AA3F-5A1C-BF10-AA6189F197D5" name="matricula">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>446EAE92-1A50-14D8-ABC0-52EBC83AE4F3</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idaluno" id="D478C6F2-6510-5121-C7A3-8CC51B1BFF44">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>A9B3F70B-7AE6-AE1F-B0C5-FC2A616B93D1</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso" id="4764675D-CC4F-F4EE-EF90-4E2F1EC71E97">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>59DF43DD-0AB0-9E08-D332-4DBD7977FF88</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula_ID" id="B82775CC-0AB7-885E-5ECF-7766B0346ADE">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="095FF574-0635-E642-2CEE-EC8F86EB24A8" name="matricula_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B82775CC-0AB7-885E-5ECF-7766B0346ADE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

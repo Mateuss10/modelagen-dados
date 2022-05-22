@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC059FB5-23E0-0CCD-2692-3FF82286E1A0" name="compra">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>9B550734-6EA1-A6CC-5DFD-4E20A90AB7C4</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nome" id="7F1EF023-3A85-A9D9-68B6-4FB7BA265932">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>666C9ECC-C522-5B5A-A9F9-7A202B64B014</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_de_compra" id="DC94E93C-4345-B712-4305-EE94BE40A8FC">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>4825B184-C202-BFB2-62E7-1E50CF738DC4</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total" id="6969B8B1-8CA5-E420-DA22-B5382D3A687C">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>8F755636-4FAA-8D88-DC2A-46AD197EC5CC</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produtos_comprados" id="1C787802-CF9D-ED30-B324-AEE165ED5C75">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>D693A95C-DA5F-3E28-C7C7-0062343C9FA8</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="compra_ID" id="A832F0FE-A7B1-CBF0-CD43-B13AC013A3AD">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50E9B774-F434-5CC8-8F95-FA776D0F31A4" name="compra_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A832F0FE-A7B1-CBF0-CD43-B13AC013A3AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

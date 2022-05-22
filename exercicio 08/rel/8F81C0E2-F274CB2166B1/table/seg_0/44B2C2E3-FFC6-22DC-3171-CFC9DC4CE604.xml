@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44B2C2E3-FFC6-22DC-3171-CFC9DC4CE604" name="curso">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>C1A81F27-6137-28FE-DAE1-BD18EBAD8F1B</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="disciplina" id="C6FEF946-8ED3-97B7-911F-B09AEBFDF7C1">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>58D22856-BA37-11BC-60A6-329248C7D190</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_ID" id="7AF420A4-F3D6-BB93-DD6E-3C78EF43F206">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="051F2E13-EA06-C4BA-0628-2FEB9E91F2DE" name="curso_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7AF420A4-F3D6-BB93-DD6E-3C78EF43F206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

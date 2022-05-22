@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47A8761C-7855-1F24-01BA-18EC9B3296C7" name="cadastro">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>43DDB718-5BF3-B1E9-D629-08E6FE2CDFDD</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RG" id="BD85FD47-877E-86EB-1B21-9282C9B95B14">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>90F8C60C-D280-CA5F-9D40-9BA391DE9AE5</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="0414699F-6894-DEBA-9F61-61BD7566BD9A">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>040724D4-F927-C7BF-F0D9-04D6A90278D0</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="599BBA35-B975-874E-3833-6D95C7EDD3F4">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>46731941-EB79-99C8-FE51-39F875C1D238</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="1103A738-3DB6-5A1D-4A89-AF7BB3971287">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>9473E8E7-7713-08D4-69DE-707672F9FEAC</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cadastro_ID" id="6224F058-7259-EB59-8B07-92898DAA7B40">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="553CD8E9-52E2-CED7-5794-1C716974CAC2" name="cadastro_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6224F058-7259-EB59-8B07-92898DAA7B40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

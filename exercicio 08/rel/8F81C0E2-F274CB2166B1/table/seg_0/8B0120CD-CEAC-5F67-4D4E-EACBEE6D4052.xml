@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B0120CD-CEAC-5F67-4D4E-EACBEE6D4052" name="nota">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>43A02644-42E4-3B07-DD7D-1D989E14D108</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trabalho" id="B1089D02-0E3A-B4DE-625D-D4B3697115E5">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>382375F2-9650-82E0-AFD0-4694A50CB701</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provas" id="3E5DCA81-74F0-5AD9-F87C-0970C7AA2409">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>7DE4C26B-DA23-0CB8-DF74-2BAD35DF1602</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_ID" id="41DF6620-7341-94CF-BFBB-F23A78835B93">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="matricula_matricula_ID" id="F2CDC918-394F-430F-8EF4-08F00C68BB1D">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D88FE3C-70D7-BB6B-77DA-9DC7CF09DD99" referredColumn="B82775CC-0AB7-885E-5ECF-7766B0346ADE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D49484E-2FC8-2252-E8B5-CF617A1379E1" name="nota_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="41DF6620-7341-94CF-BFBB-F23A78835B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF47D079-9E6E-C438-79E8-ADEF74897F75" name="nota_matricula_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 11:39:07 UTC</createdTime>
+<generatorID>FEC3D463-2988-3E5C-DBEF-61488C3CBF27</generatorID>
+<ownerDesignName>exercicio 08</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2CDC918-394F-430F-8EF4-08F00C68BB1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

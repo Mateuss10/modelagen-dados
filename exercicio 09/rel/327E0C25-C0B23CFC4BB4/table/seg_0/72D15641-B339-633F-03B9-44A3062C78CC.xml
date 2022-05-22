@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72D15641-B339-633F-03B9-44A3062C78CC" name="Relation_2">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produtos_produtos_ID" id="CF722FE5-1145-4F57-DA63-CE15755B4846">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="780409A1-B9F2-F130-4DB8-E01EBF283102" referredColumn="9E2536AE-AE8D-208E-D605-0D5A0D2D6E0A"/>
+</associations>
+</Column>
+<Column name="compra_compra_ID" id="D73D673D-2C95-A8B8-CE7E-CB83023C1BA2">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6F301DB-5403-176D-196E-880F36A00766" referredColumn="A832F0FE-A7B1-CBF0-CD43-B13AC013A3AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA1D0540-6E15-0A96-A91C-7A87F007C614" name="Relation_2_PK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF722FE5-1145-4F57-DA63-CE15755B4846"/>
+<colUsage columnID="D73D673D-2C95-A8B8-CE7E-CB83023C1BA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D25AA04-A0F2-F76F-8B63-136C1756D81C" name="Relation_2_produtos_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>53B79FC7-313D-3D43-588E-2457E59BBA4B</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF722FE5-1145-4F57-DA63-CE15755B4846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76D1EFFA-FBDE-1140-E724-E5B319AD17B4" name="Relation_2_compra_FK">
+<createdBy>silva</createdBy>
+<createdTime>2022-05-02 12:03:43 UTC</createdTime>
+<generatorID>53B79FC7-313D-3D43-588E-2457E59BBA4B</generatorID>
+<ownerDesignName>exercicio 09</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D73D673D-2C95-A8B8-CE7E-CB83023C1BA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
